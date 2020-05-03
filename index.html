@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+    <!--使用最高级标准模式渲染页面, 用于IE浏览器-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!--采用webkit内核渲染， 用于国产双内核浏览器-->
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!--总体的包裹元素-->
+    <div id="wrapper">
+        <!--开机动画-->
+        <div id="bootMask">
+            <div class="boot-mask-up"></div>
+            <div class="boot-mask-down"></div>
+            <div class="boot-progress"></div>
+        </div>
+
+        <!--头部-->
+        <header id="header">
+            <div class="container clearfix">
+                <nav class="nav-list fr">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="javascript:">
+                                <div class="nav-item-default">
+                                    <img src="img/home.png" alt="">
+                                </div>
+                                <div class="nav-item-actived">
+                                    <img src="img/home_actived.png" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:">
+                                <div class="nav-item-default">关于我</div>
+                                <div class="nav-item-actived">关于我</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:">
+                                <div class="nav-item-default">技能</div>
+                                <div class="nav-item-actived">技能</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:">
+                                <div class="nav-item-default">作品</div>
+                                <div class="nav-item-actived">作品</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:">
+                                <div class="nav-item-default">随笔</div>
+                                <div class="nav-item-actived">随笔</div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!--小三角-->
+            <div class="arrow"></div>
+        </header>
+
+        <!--主体内容-->
+        <div id="main">
+            <nav class="menu-list">
+                <span class="menu-item"></span>
+                <span class="menu-item"></span>
+                <span class="menu-item"></span>
+                <span class="menu-item"></span>
+                <span class="menu-item"></span>
+            </nav>
+            <div class="content-list">
+
+                <div class="content-item home">
+                    <div class="content-inner">
+                        <div class="content-info">
+                            <p>TEL: 13155208322  ||  Email: yyn19960709@163.com </p>
+                        </div>
+                        <div class="play-wrapper">
+                            <div class="play-list">
+                                <div class="play-item active"></div>
+                                <div class="play-item">
+                                    <h3>我叫杨亚男</h3>
+                                    <p id="p1">23岁</p>
+                                    <p id="p2">目前是一名应届生</p>
+                                    <p id="p3">渴望成为一位优秀的前端工程师</p>
+                                </div>
+                                <div class="play-item circle3">
+                                    <p id="p4">期望得到一份全职的前端工作</p>
+                                    <p id="p5">薪水，老板您定！</p>
+                                </div>
+
+                            </div>
+                            <div class="icon-list">
+                                <span class="icon-item active"></span>
+                                <span class="icon-item"></span>
+                                <span class="icon-item"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-item course">
+                    <div class="content-inner">
+                        <div class="plane1"></div>
+                        <div class="plane2"></div>
+                        <div class="plane3"></div>
+
+                        <!-- about -->
+                        <div id="about_content">
+                            <div id="about_list_content">
+                                <div class="about_list">
+                                    <div class="about1_list" id="about_en_edu"></div>
+                                    <div class="about2_list" id="about_cn_edu">学历<p>本科</p></div>
+                                </div>
+                                <div class="about_list">
+                                    <div class="about1_list" id="about_en_age"></div>
+                                    <div class="about2_list" id="about_cn_age">年龄<p>23岁</p></div>
+                                </div>
+                                <div class="about_list">
+                                    <div class="about1_list" id="about_en_loc"></div>
+                                    <div class="about2_list" id="about_cn_loc">坐标<p>上海</p></div>
+                                </div>
+                                <div class="about_list">
+                                    <div class="about1_list" id="about_en_sta"></div>
+                                    <div class="about2_list" id="about_cn_sta">状态<p>2020应届</p></div>
+                                </div>
+                            </div>
+                            <div class="about_info">
+                                <p class="p6">即将毕业于蚌埠学院</p>
+                                <p class="p7">在校期间分别获得一等优秀奖学金和三等优秀奖学金</p>
+                                <p class="p8">CET4和CET6证书已到手</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-item works">
+                    <div class="content-inner">
+                        <div class="pencel1"></div>
+                        <div class="pencel2"></div>
+                        <div class="pencel3"></div>
+                        <div id="skill_content">
+                            <div class="skill_title">
+                                <h1>专业技能</h1>
+                            </div>
+                            <div id="skill_info"></div>
+                            <div id="skill_list">
+                                <div class="skill_list_content" id="skill_list1">
+                                    <div class="skill_icon" id="skill_icon1"></div>
+                                    <div class="skill_name">AngularJs</div>
+                                    <div class="skill_flag flag1"></div>
+                                    <div class="skill_int" id="skill_int1">
+                                        <ul type="disc">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="skill_list_content" id="skill_list2">
+                                    <div class="skill_icon" id="skill_icon2"></div>
+                                    <div class="skill_name">HTML</div>
+                                    <div class="skill_flag flag2"></div>
+                                    <div class="skill_int" id="skill_int2">
+                                        <ul type="disc">
+                                            <li>深刻理解Web标准</li>
+                                            <li>熟练运用html标签</li>
+                                            <li>熟悉html标记语言</li>
+                                            <li>掌握html5新特性如canvas</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="skill_list_content" id="skill_list3">
+                                    <div class="skill_icon" id="skill_icon3"></div>
+                                    <div class="skill_name">CSS</div>
+                                    <div class="skill_flag flag3"></div>
+                                    <div class="skill_int" id="skill_int3">
+                                        <ul type="disc">
+                                            <li>熟练运用css及css3新属性</li>
+                                            <li>懂得一些布局如flex</li>
+                                            <li>掌握css预编译器Less</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="skill_list_content" id="skill_list4">
+                                    <div class="skill_icon" id="skill_icon4"></div>
+                                    <div class="skill_name">JavaScript</div>
+                                    <div class="skill_flag flag4"></div>
+                                   <div class="skill_int" id="skill_int4">
+                                       <ul type="disc">
+                                           <li>掌握jQuery</li>
+                                           <li>掌握原生JS的编程</li>
+                                           <li>注重JavaScript性能优化</li>
+                                           <li>熟悉ES6</li>
+                                       </ul>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-item about">
+                    <div class="content-inner">
+                        <div class="about3">
+                            <div class="about3-item">
+                                <div class="about3-item-info">
+                                    <h3><b>Demo:图书展示</b></h3>
+                                    <p><b>结构</b><br/>一共三大部分，第一部分是静态页面的布局，第二部分是对页面中元素的样式的设计，第三部分是响应用户操作</p>
+                                    <p><b>描述</b><br/>主要是静态页面的展示，包括导航头部，轮播图，tab选项和一个图片相册</p>
+                                    <p><b>技术点</b><br/>主要使用HTML，CSS,Javascript,移动端触摸事件</p>
+                                    <p><b>难点</b><br/>移动端适配，触摸滑动，无缝滑屏，橡皮筋效果等</p>
+                                    <hr/>
+                                    <p><a href="#">详情</a></p>
+                                </div>
+                                <div class="about3-item-mask">
+                                    <ul>
+                                        <li><img src="img/about1.png"></li>
+                                        <li><img src="img/about1.png"></li>
+                                        <li><img src="img/about1.png"></li>
+                                        <li><img src="img/about1.png"></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="about3-item">
+                                <div class="about3-item-info">
+                                    <h3>待更新</h3>
+                                </div>
+                                <div class="about3-item-mask">
+                                    <ul>
+                                        <li><img src="img/about3.png"></li>
+                                        <li><img src="img/about3.png"></li>
+                                        <li><img src="img/about3.png"></li>
+                                        <li><img src="img/about3.png"></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="content-item team">
+                    <div class="content-inner">
+                       <div class="team1"></div>
+                        <div class="team2">
+                            <p>我热爱前端，并也将为之而奋斗</p>
+                            <p>追求优雅的代码，将严格的品味与前端结合，创造出优秀的作品</p>
+                            <p>行路有良友，便是捷径</p>
+                            <p>带上我吧，我不会拖后腿的</p>
+                        </div>
+                        <div class="team3">
+                            <div class="robot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--导入js文件-->
+    <script src="js/index.js"></script>
+</body>
+</html>
